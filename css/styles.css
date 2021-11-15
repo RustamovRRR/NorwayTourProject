@@ -101,7 +101,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clrGrey5);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -157,6 +157,52 @@ Navbar
 Hero
 ===============
 */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/main2.jpeg") center/cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-banner {
+  text-align: center;
+  color: var(--clrWhite);
+  padding: 0 3rem;
+}
+.hero-banner h1 {
+  text-transform: uppercase;
+}
+.hero-banner p {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--clrWhite);
+  letter-spacing: var(--spacing);
+}
+.hero-btn {
+  padding: 0.9rem 1.6rem;
+  font-size: 1.25rem;
+  background: var(--clrWhite);
+  color: var(--clrPrimary1);
+}
+.hero-btn:hover {
+  background: transparent;
+  color: var(--clrWhite);
+  border-color: var(--clrWhite);
+}
+@media screen and (min-width: 762px) {
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/images/main1.jpeg") center/cover no-repeat fixed;
+  }
+  .hero-banner {
+    padding: 0;
+  }
+  .hero-banner p {
+    max-width: 45rem;
+  }
+}
 /*
 =============== 
 About
