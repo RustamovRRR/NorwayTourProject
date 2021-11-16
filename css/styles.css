@@ -228,8 +228,11 @@ Navbar
   overflow: hidden;
   transition: var(--transition);
 }
-.show-links{
+.show-links {
   height: 280px;
+}
+.nav-logo {
+  height: 2rem;
 }
 /*
 =============== 
