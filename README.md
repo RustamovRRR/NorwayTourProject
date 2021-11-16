@@ -1,2 +1,2 @@
 Norway Tour Project
-Link to the project: https://chirstmas-gifts-project.netlify.app/
+Link to the project: https://norway-tour-project.netlify.app/
